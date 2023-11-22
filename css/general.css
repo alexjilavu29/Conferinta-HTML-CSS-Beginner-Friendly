@@ -1,0 +1,35 @@
+/*
+    #5892B7 -- PRINCIPAL
+    #58d8df -- ACCENT
+*/
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    font-family: Verdana, sans-serif;
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: whitesmoke;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: whitesmoke;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #406b86;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #294658;
+  }

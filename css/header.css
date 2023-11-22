@@ -1,0 +1,79 @@
+header{
+    background-color: whitesmoke;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.headerdiv{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 5rem;
+}
+
+.headerdiv>a{
+    text-decoration: none;
+    color:black;
+}
+
+.navdiv{
+    height: 5rem;
+    cursor: pointer;
+    background-color: #cfe0ff36;
+    padding-left: 3vw;
+    padding-right: 3vw;
+    display: flex;
+    align-items: center;
+    font-size: large;
+    transition: all ease 0.15s;
+}
+
+.navdiv:hover{
+    background-color: #5892B7;
+    color:rgb(247, 247, 255);
+}
+
+#haisavorbim{
+    background-color: #5892B7;
+    color:white;
+    font-size:22px;
+}
+
+#haisavorbim:hover{
+    background-color: #87bfe2;
+   
+}
+
+.navdivimg{
+    height: 5rem;
+    cursor: pointer;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#logo{
+    height: 100%;
+    padding: 5px;
+}
+
+#navleftbutton{
+    background-color: white;
+    border: 2px solid #5892B7;
+    font-size: large;
+    cursor: pointer;
+    border-radius: 50px;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right:20px;
+    margin:10px;
+}
+
+#navleftbutton:hover{
+    background-color: #5892B7;
+    color:white;
+    transition: all ease 0.05s;
+}
